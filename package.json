@@ -1,0 +1,64 @@
+{
+  "name": "infinity-slider",
+  "version": "1.0.0",
+  "description": "tip how to make infinity slider",
+  "main": "index.js",
+  "private": true,
+  "browserslist": [
+    "> .5%"
+  ],
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack serve --mode development",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iusmanof/infinity-slider.git"
+  },
+  "keywords": [
+    "js",
+    "css",
+    "html",
+    "slider",
+    "infinity-slider"
+  ],
+  "author": "I.Usmanov <iusmanof@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iusmanof/infinity-slider/issues"
+  },
+  "homepage": "https://github.com/iusmanof/infinity-slider#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.3.2",
+    "css-loader": "^5.0.1",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "file-loader": "^6.2.0",
+    "html-minimizer-webpack-plugin": "^2.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.1",
+    "postcss": "^8.1.10",
+    "postcss-loader": "^4.1.0",
+    "prettier": "2.2.1",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "lodash": "^4.17.20",
+    "normalize": "^0.3.1",
+    "normalize.css": "^8.0.1",
+    "postcss-cli": "^8.3.0"
+  }
+}
