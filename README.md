@@ -1,0 +1,2 @@
+# infinity-slider
+Infinity slider
